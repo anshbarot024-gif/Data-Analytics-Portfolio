@@ -1,0 +1,71 @@
+x = 20 
+x >= 1 & x <= 19
+
+set.seed(1)
+round(runif(10),2)
+
+
+set.seed(1)
+
+x = sample(1:100,10)
+y= sample(c("X","Y","Z"),6, replace=T)
+z = 4.5
+
+list1 = list(x,y,z)
+list1
+
+list2 = list(x1=x,y1=y,z1=z)
+list2
+list3 = list()
+
+
+
+
+x = sample(-100:100,25)
+x
+neg_positions <- which(x < 0)
+
+
+neg_values <- x[neg_positions]
+
+
+neg_positions
+neg_values
+
+
+ip <- '172.168.45.112:3306'
+
+nchar(ip)
+
+substr(ip,nchar(ip) - 3,nchar(ip))
+
+ip_s <- strsplit(ip,'')
+ip_s [[1]][5]
+
+?strsplit
+
+
+
+
+
+unlist(strsplit("a.b.c", "."))
+## [1] "" "" "" "" ""
+## Note that 'split' is a regexp!
+## If you really want to split on '.', use
+unlist(strsplit("a.b.c", "[.]"))
+## [1] "a" "b" "c"
+## or
+unlist(strsplit("a.b.c", ".", fixed = TRUE))
+
+
+
+
+
+# Generate a vector of 100 real numbers between 0 and 100
+vec <- runif(100, min = 0, max = 100)
+
+# Count how many numbers fall in the range [25, 50]
+count_in_range <- sum(vec >= 25 & vec <= 50)
+
+# Print the count
+print(count_in_range)

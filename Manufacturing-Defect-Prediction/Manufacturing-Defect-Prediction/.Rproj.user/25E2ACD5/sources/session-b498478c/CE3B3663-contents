@@ -1,0 +1,5 @@
+logs <- sample(c('Working','Faulty','Maintenance'),1000,replace = TRUE, prob=c(.6,.2,.2))
+logs
+table(logs)
+
+table(logs)/length(logs)*100               

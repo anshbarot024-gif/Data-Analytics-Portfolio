@@ -1,0 +1,268 @@
+# 1. Create the vector
+random_vec <- sample(-100:100, 25, replace = TRUE)
+
+# 2. Extract negative values
+negative_values <- random_vec[random_vec < 0]
+
+# 3. Find their positions (indices)
+negative_positions <- which(random_vec < 0)
+
+# 4. Display the results
+print("Original Vector:")
+print(random_vec)
+print("Negative Values:")  
+print(negative_values)
+print("Their Positions:")
+print(negative_positions)
+
+
+
+
+
+
+
+ip_address <- '172.168.45.112:3306'
+
+# Use gsub to remove everything up to and including the colon
+port_number <- gsub(".*:", "", ip_address)
+
+print(port_number)
+
+
+
+
+
+
+
+
+# 1. Define statuses and their probabilities (6:2:2 ratio = 0.6, 0.2, 0.2)
+statuses <- c('working', 'faulty', 'maintenance')
+probabilities <- c(0.6, 0.2, 0.2)
+
+# 2. Simulate 1000 log entries
+log_data <- sample(statuses, 1000, replace = TRUE, prob = probabilities)
+
+# 3. Calculate frequency and percentage
+status_counts <- table(log_data)
+status_percentages <- prop.table(status_counts) * 100
+
+print(status_percentages)
+
+
+
+
+set.seed(1)
+real_num = runif(100,min=0,max=100)
+countinrange=sum(real_num >= 25 & real_num <= 50)
+countinrange
+
+
+my_list=list(
+  nums=c(10,20,30),
+  chars=c('a','b','c'),
+  logs=c(TRUE,FALSE,TRUE)
+)
+
+my_list$nums[3]=999
+my_list$chars[3]='Rep'
+my_list$logs=NA
+
+print(my_list)
+
+
+
+
+
+# 1. Create a vector with NA values
+mixed_vec <- c("first", "Second", NA, "fourth", "FIFTH", NA)
+
+# 2. Identify which elements are not NA
+non_na_indices <- !is.na(mixed_vec)
+
+# 3. Convert only the non-NA elements to uppercase
+mixed_vec[non_na_indices] <- toupper(mixed_vec[non_na_indices])
+
+print(mixed_vec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1. Create a random numeric vector
+num_vector <- round(runif(10, 1, 100))
+print(paste("Original:", paste(num_vector, collapse=" ")))
+
+# 2. Replace elements, forcing vector to be character type
+num_vector[c(3, 6, 9)] <- 'NA_val'
+print(paste("Modified:", paste(num_vector, collapse=" ")))
+
+# 3. Identify non-numeric entries by finding where as.numeric() creates NAs
+# suppressWarnings is used to hide the "NAs introduced by coercion" message
+non_numeric_indices <- which(as.numeric(num_vector))
+
+print(paste("Indices of non-numeric entries:", paste(non_numeric_indices, collapse=" ")))
+
+
+
+
+
+
+# 1. Create a list of vectors with different lengths
+list_of_vectors <- list(
+  a = c(10, 5, 25),
+  b = c(100, 250, 150, 300),
+  c = c(-5, -2, 0)
+)
+
+# 2. Use lapply to apply the max function to each element of the list
+max_values <- lapply(list_of_vectors, max)
+
+print(max_values)
+
+
+
+
+
+
+
+
+
+
+
+v1 <- 1:9  # Length 10
+v2 <- 1:3   # Length 3
+
+# Check if the length of the longer vector is a multiple of the shorter one
+if (length(v1) %% length(v2) == 0) {
+  result <- v1 + v2
+  print("Operation successful (recycling was clean):")
+  print(result)
+} else {
+  # This block would run if lengths were not compatible (e.g., 10 and 3)
+  warning("Vector lengths are not compatible multiples. Operation might be misleading.")
+  # You could choose to stop or perform a different action here
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Create vectors
+day <- factor(c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"),
+              levels = c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"))
+
+snacks_spend <- c(30, 25, 20, 40, 35, 50, 45)
+travel_spend <- c(60, 55, 50, 70, 65, 80, 75)
+
+# Create data frame
+pocket <- data.frame(day, snacks_spend, travel_spend)
+
+# Add total_spend using transform
+pocket <- transform(pocket, total_spend = snacks_spend + travel_spend)
+
+# Print the data frame
+print(pocket)
+
+
+
+
+# Select months Jan–Jun using indexing on month.abb
+month <- month.abb[1:6]  
+
+# Amount invested each month (same value)
+amount <- rep(5000, 6)   # ₹5000 per month
+amount
+# Example NAV values
+nav <- c(12.5, 12.8, 13.0, 13.2, 13.5, 13.8)
+
+# Create data frame
+sip_log <- data.frame(month, amount, nav)
+
+# Print the data frame
+print(sip_log)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 10 consecutive dates starting from 2025-08-01
+date <- seq.Date(from = as.Date("2025-08-01"), by = "day", length.out = 10)
+
+# Transaction type: Debit or Credit
+type <- sample(c("Debit", "Credit"), size = 10, replace = TRUE)
+
+# At least 3 categories
+category <- sample(c("Groceries", "Fuel", "Entertainment", "Bills"), 
+                   size = 10, replace = TRUE)
+
+# Random amounts between ₹100 and ₹2000
+amount <- sample(100:2000, size = 10, replace = TRUE)
+
+# Create data frame
+cashbook <- data.frame(date, type, category, amount)
+
+# Print the data frame
+print(cashbook)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

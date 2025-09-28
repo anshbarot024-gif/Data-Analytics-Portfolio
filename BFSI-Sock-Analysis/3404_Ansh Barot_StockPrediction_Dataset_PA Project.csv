@@ -1,0 +1,101 @@
+﻿Stock Name,Stock Industry Name,Stock Code Name,Publication Date,Business Model Type,Open Price,Close Price,PE Ratio,Trading Volume (In Millions),Relative Strength Index (In Scale of 0-100),Volatility (In Rupees),Sentiment Score Index
+HDFC Bank,Bank,HDFCBANK,1905,Private Universal Bank,1998.01,1983.55,20.71,6.26,36.02,8.02,Bear
+ICICI Bank,Bank,ICICIBANK,1998,Private Universal Bank,1432,1421.9,18.66,7.16,46.16,19.36,Bear
+SBI Bank,Bank,SBIN,1997,Public  Sector Universal Bank,807.9,808.65,10.17,6.2,48.22,4.04,Bear
+Axis Bank,Bank,AXISBANK,1998,Private Universal Bank,1202,1173.8,12.95,4.47,51.87,19.5,Bear
+Kotak Mahindra Bank,Bank,KOTAKBANK,2003,Private Universal Bank,2201.8,2220.6,20.11,2.68,54.06,12.49,Bear
+Bank Of Baroda,Bank,BANKBARODA,1908,Public  Sector Universal Bank,238.25,237.2,6.27,6.16,36.05,1.53,Bull
+Punjab National Bank,Bank,PNB,1894,Public  Sector Universal Bank,109.7,110.21,7.61,23.1,44.69,0.72,Bear
+Canara Bank,Bank,CANBK,1906,Public  Sector Universal Bank,114.37,111.92,5.96,13.37,50.37,2.5,Bear
+Induslnd Bank,Bank,INDUSINDBK,1995,Private Commercial Bank,852,858.85,25.98,3.85,56.4,6.11,Bull
+AU Small Finance Bank,Bank,AUBANK,2017,Private Small Finance Bank,819,821,29.03,1.77,49.3,4.44,Bull
+IDFC First Bank,Bank,IDFCFIRSTB,2018,Private Retail Focused Bank,75.23,76.5,37,16.52,38,0.55,Bear
+Federal Bank,Bank,FEDERALBNK,1931,Private Retail & Corporate Bank,211.42,207.38,12.13,4.01,50,3.97,Bear
+ICICI Prudential Life Insurance,Life Insurance,ICICIPRULI,2016,Private Life Insurer,650.95,660.7,80.33,6.9,37.7,5.75,Bear
+SBI Life Insrance Company,Life Insurance,SBILIFE,2017,Publice Sector Life Insurance ,1799,1835,76.19,7.7,59.95,10.86,Bull
+HDFC Life Insurance,Life Insurance,HDFCLIFE,2000,Public Life Insurer,781.05,759,96.68,3.51,35.65,7,Bear
+AxisMax ,Life Insurance,MAXF,2000,Joint Venture Private Life Insurer,1568.5,1567.2,156.94,1.1,42.64,28.2,Neutral
+ICICI Lombard General Insurance,General Insurance,ICICIGI,2001,Private Non Life Insurer,2035.4,2012.2,40.02,0.59,60,37.3,Bull
+General Insurance Corp Of India,General Insurance,GICRE,2017,Government Owned Reinsurance Corp,378.4,375.25,8.9,0.49,45,5,Neutral
+Star Health & Allied Insurance,Health Insurance,STARHEALTH,2020,Private Health Specialist General Insurer,425.8,424.8,38.81,0.46,56,2.8,Neutral
+Nive Bupa  Health Insurance,Health Insurance,NIVABUPA,2021,Private Health Specialist General Insurer,85,88.69,76.37,0.24,56,1.16,Neutral
+Bajaj Healthcare,Health Insurance,BAJAJHCARE,2022,Private Health Specialist General Insurer,478.56,478.55,29.21,0.07,40,1.2,Bull
+Medi Assist,Health Insurance,MEDIASSIST,2015,Private Health Specialist General Insurer,531.9,567.6,35.19,0.34,70,37.3,Neutral
+Bajaj Finance Ltd,NBFC,BAJFINANCE,2005,Consumer Finance,925,933.5,34.8,4.28,42.63,5.3,Bear
+Muthoot Finance Ltd,NBFC,MUTHOOTFIN,2011,Secured Lending via gold loans,2662.8,2640.6,19.9,0.5,52.8,17.2,Bull
+Cholamandalam Investment & Finance,NBFC,CHOLAFIN,1995,Vehicel Finance,1526.7,1532.5,30.6,1.18,41.18,9.09,Bear
+LIC Housing Finance Ltd,NBFC,LICHSGFIN,1994,Retail home loans,612,604.15,6.1,1.43,49.2,4.13,Neutral
+L&T Finance Holdings Ltd.,NBFC,L&TFH,2011,Consumer loans,205.99,204.59,39.7,1.2,45.2,4.74,Neutral
+Shriram Finance Ltd,NBFC,SHRIRAMFIN,2022,Commercial vehicle loans,676.15,668.25,13.2,4.93,40.2,4.36,Bear
+Manappuram Finance Ltd.,NBFC,MANAPPURAM,2010,"Gold loans, affordable housing finance",272.55,262.9,18.48,0.2,47,7.39,Bull
+Piramal Enterprises Ltd.,NBFC,PEL,1980,Financial services & pharma,1155,1217,56.9,1.24,41,5.6,Bull
+Indian Railway Finance Corp Ltd.,Financial Institutions ,IRFC,2021,Indian Railways rolling stock funds,139.17,130.09,24.6,8.8,47,2,Neutral
+Power Finance Corp Ltd.,Financial Institutions ,PFC,2007,Wholesale lending to power sector,414.7,420.2,5.7,3.4,50.9,6,Bull
+REC Ltd.,Financial Institutions ,RECLTD,2008,Funds the rural and power distribution projects,393.2,391.6,6.4,4.6,41,6.8,Neutral
+HUDCO Ltd.,Financial Institutions ,HUDCO,2017,Housing Finance for urban development,230.5,229,15.5,2,42,3,Bear
+Indian Renewable Energy Dev. Ag.,Financial Institutions ,IEDA,2023,Government owned renewable energy project fund provider,150.49,150.67,25.6,7.2,31.7,5,Bear
+IFCI Ltd,NBFC ,IFCI,1994,"Term lending to public sector, infrastructure",62.75,61.4,5,4.17,48,1.6,Neutral
+Tourism Finance Corp of India,NBFC ,TFCILTD,1989,Loans to tourism and hospitality sector,275,276.75,11,1.04,45,5,Neutral
+Haryana Financial Corporation Ltd,State-Level Term Lending Institution,HFC,1967,Financing small industries under state initiative,63.4,62.2,6,0.011,35,6,Neutral
+Gujarat State Financial Corporation,State-Level Term Lending Institution,GUJSTATFIN,1960,SME and industrial project financing,15.88,15.72,8,0.015,34,5,Bear
+SBFC Finance Ltd,NBFC – MSME Lending,SBFC,1994,"SME & MSME loans, secured/unsecured",110.65,119.02,31.1,2.32,60,4,Bull
+MAS Financial Services Ltd,NBFC – SME Lending,MASFIN,2009,Underwriting & SME loans,182,188.5,18–20,0.65,55,6,Bull
+Fedbank Financial Services,NBFC / Equipment Finance,FBFIN,2020,Equipment & vehicle finance,65,64.15,22,0.03,45,1.2,Neutral
+Northern Arc Capital Ltd,NBFC – MSME & Retail Lending,NORTHERNARC,2018,MSME/retail loans via fintech,48.25,47.8,35,0.15,50,0.8,Neutral
+IndoStar Capital Finance,NBFC – Vehicle & SME Loans,INDOSTAR,2007,SME and vehicle loans,345.8,338,10–11,0.11,55,8,Bull
+Paisalo Digital,NBFC – MSME Digital Lending,PDL,2018,Digital MSME loans,467.5,460,40,0.08,48,10,Bear
+PTC India Financial Services,NBFC – Power Sector Lending,PTCINDFIN,2018,Loans to power sector,86,85.5,16,0.02,47,1,Neutral
+SG Finserve Ltd,NBFC – Vehicle & SME Lending,SGFIN,2018,Vehicle & MSME financing,232.5,230,25,0.02,52,3,Neutral
+URGO Capital Ltd,NBFC,URGOCAP,2018,Tech Driven MSME lending,182,184.75,13.2,0.384,50,8,Neutral
+CRISIL Ltd,Financial Institutions ,CRISIL,2005,"Credit ratings, risk analysis consultancy etc.",5852,5973,55.7,0.118,50.8,163.8,Neutral
+CreditAccess Grameen,NBFC – Microfinance,CREDITACC,2016,Micro-lending to rural borrowers,"1,308.50","1,296.80",109.8,0.43,58,2.8,Bull
+IIFL Finance,NBFC – Diversified,IIFL,2000,"Personal, SME & commercial lending",475.15,519.75,58.5,1.68,55,10,Bull
+UCO Bank,Bank,UCOBANK,2003,Public Sector Bank,29.2,28.15,14.06,13.533,36.4,0.68,Neutral
+Karur Vysya Bank,Bank,KARURVYSYA,2000,Private Sector Bank,269.55,259.9,10.31,2.449,45,1.82,Bear
+Jammu & Kashmir Bank,Bank,J&KBANK,1998,Public Sector Bank,114,110.11,5.31,4.955,46,2.99,Bear
+Ujjivan Small Finance Bank,Bank,UJJIVANSFB,2019,Small Finance Bank,48.2,47.51,15.76,6.598,39,1.46,Bull
+South Indian Bank,Bank,SOUTHBANK,1998,Private Sector Bank,30.89,29.21,5.8,7.061,49,0.71,Bull
+Tamilnad Mercantile Bank,Private Bank,TMB,1921,Retail & MSME Banking (Tamil Nadu focus),855,845,14,0.45,48,7,Neutral
+CSB Bank,Private Bank,CSBBANK,2019,Regional Universal Banking,412.15,415,18.5,0.309,50,6,Neutral
+Karnataka Bank,Private Bank,KTKBANK,1924,Retail/SME Banking,116,114.5,12.5,0.52,46,7.5,Bear
+Equitas Small Fin Bank,Small Finance Bank,EQUITAS,2016,Retail & Microfinance Lending,77.25,76.1,22,2.12,45,2,Bear
+Jana Small Fin Bank,Small Finance Bank,JANASFB,2018,Micro & Retail Lending,68.4,66,30,1.05,40,2,Bear
+DCB Bank,Private Bank,DCBBANK,1930,Retail & MSME Banking,142.21,142.67,5.96,1.61,49,1.8,Neutral
+Utkarsh Small Fin Bank,Small Finance Bank,UJJIVANSFB,2019,Micro & Rural Lending,42.5,41.9,18,0.84,42,1.5,Bear
+21st Century Mgt,NBFC/Consulting,21CMGMT,2021,Small NBFC – consulting,120,118,25,0.05,46,3,Neutral
+360 One WAM,Wealth Mgmt,360WAM,2020,Asset management–finance,155,152.5,40,0.08,48,4,Neutral
+3P Land Holdings,Real Estate,3PLH,2019,Land development,45,44,18,0.03,44,1.2,Bear
+5Paisa Capital,Broking,5PAISA,2018,Discount broker,165,168.5,30.5,0.21,55,5.5,Bull
+A-1 Designs,Industrial Manufacturing,A1DESIGNS,2015,Valve and engineering,78,76,22,0.02,42,1.8,Neutral
+Aditya Infotech,Financial Institution,ADITYAINF,2017,Software & ERP solutions,45,44.5,28,0.04,50,2,Neutral
+Aptus Value Housing,Housing Finance,APTUSVH,2016,Housing loans,135,133.5,18.5,0.15,47,3.5,Neutral
+Aavas Financiers,Housing Finance,AAVAS,2018,Affordable home loans,"2,098.00","2,075.00",20.2,0.38,52,32,Neutral
+Can Fin Homes,Housing Finance,CANFINHOME,1995,Home loans (PSU-linked),"1,410.00","1,385.00",14.8,0.25,48,28,Neutral
+Cello World,Consumer Durables,CELLO,1995,Plastics & stationery,290,285,25,0.1,46,7,Bear
+Entero Healthcare,Pharma,ENTEROHEAL,2018,Contract manufacturing,620,605,32.5,0.05,48,18,Neutral
+Choice International,Financial Services,CHOICE,2010,Share lending & margin financing,133,130.75,15,0.15,50,3,Neutral
+Edelweiss Fin. Services,NBFC / Investment Banking,EDELWEISS,2008,"Credit, wealth, advisory",112.5,114.2,13.8,2.2,52,2.8,Bull
+Five Star Business Finance,NBFC – Vehicle Loans,FIVECAST,2017,Micro auto financing,195,190.5,18,0.8,45,4,Bear
+Home First Finance,Housing Finance (HFC),HOMEFIRST,2021,Affordable home loans,383,390.25,24.5,0.56,60,11,Bull
+Honasa Consumer,FMCG – Consumer Goods,HONASA,2022,Beauty & personal care products,343,335.5,25,0.4,46,12,Neutral
+India Shelter Finance,Housing Finance (HFC),ISF,2018,Affordable home loans,213,210,16,0.1,48,6,Neutral
+JM Financial,Financial Services,JMFINANCIL,1992,Investment banking & NBFC,163,160.25,13.2,1.5,49,3.5,Neutral
+ICRA,Credit Ratings,ICRA,1993,"Rating, research, risk services",315,318.5,17.5,0.05,55,8,Bull
+MAS Financial,NBFC – SME Lending,MASFIN,2009,SME loan origination,181.5,188,19,0.65,56,5.5,Bull
+MMTC Ltd,Government Trading Co.,MMTC,1963,Metals & mineral trading,145,143,9,0.3,47,3,Neutral
+Optiemus Infracom,Telecom Electronics,OPTIEMUS,2011,Mobile assembly & distribution,242,235.5,14,0.22,44,11,Bear
+Pilani Investments,Investment Co.,PILANIINVS,1995,Holding company for real estate & agri,325,320,12.5,0.01,43,10,Neutral
+Prudent Finvest,NBFC – Wealth Finance,PRUDENT,2008,Stock lending & margin,53.5,52,14,0.25,48,1.5,Neutral
+Redington (India),IT Distributor,REDINGTON,1994,Distribution of IT/telecom products,120,119.5,16,0.75,49,3,Neutral
+Religare Enterprises,Financial Services Holding,RELIGARE,2007,Holding co. for Care Health & broking,47,46.8,12,0.35,47,1.2,Neutral
+Sammaan Capital,Investment Management,SAMMAANCAP,2011,Private equity & alternate asset mgmt,420,415,18,0.08,46,4,Bear
+Shree Global Tradefin Ltd,NBFC – Trade Finance,SHTL,2012,Trade receivables/niche NBFC,135,132.5,20,0.12,45,3.5,Neutral
+Shriram City Financial,NBFC – Consumer Finance,SHRIRAMCITY,1999,Used vehicle & personal loans,560,545,25,1.2,44,8,Bear
+UTI Asset Management,Asset Management,UTIAMC,2003,Mutual funds & AMC,825,840,22.5,0.5,51,12,Bull
+Cholamandalam Finance,NBFC – Auto/SME Finance,CHOLAFIN,1995,Vehicle finance & SME loans,"1,530.00","1,532.50",30.6,1.18,41.5,9.1,Bear
+Cholamandalam Investment & Finance,NBFC – Investment Finance,CHOLAINV,1995,"Home equity, asset loans","1,522.00","1,518.50",30.6,1.05,42,8.5,Bear
+Go Digit General Insurance,General Insurance (Digital),DIGITINSUR,2022,Online non-life insurance,420,425,40,0.35,56,14,Bull
+Multi Commodity Exchange (MCX),Commodities Exchange,MCX,2012,Commodity spot & derivatives exchange,"2,150.00","2,170.00",18,0.45,52,50,Bull
+Nippon Life India AMC,Asset Management,NAM INDIA,2018,Mutual fund products,630,640,24,0.28,54,8,Bull
+Poonawalla Fincorp,NBFC – MSME & Commercial,PFCL,2015,Commercial & MSME lending,445,438,22,0.65,45,6,Neutral
+Tata Investment Corporation,Holding Company,TATAINVEST,1937,Investment in group businesses,695,685,16,0.1,46,10,Bear
